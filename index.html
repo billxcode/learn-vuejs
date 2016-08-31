@@ -6,23 +6,16 @@
 </head>
 <body>
 <div id="vueID">
-	<input type="text" v-model="hello"> <button class="btn btn-primary">Reverse</button>
-	{{hello}}
+	<div class="form-group"><!-- 
+		<input type="text" v-model="hello" class="form-control"><button class="btn btn-primary">Reverse</button>
+		{{hello}}</div> -->
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
-<script type="text/javascript">
-	new Vue({
-		el:"#vueID",
-		data:{
-			hello:"hai"
-		},
-		method:{
-			reverse:function(){
-				return this.hello.reverse();
-			}
-		}
-	})
+<div id="getData">
+<button v-on:click="getData()">Get Data</button>
+	{{mydata}}
+</div>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script> -->
+<script type="text/javascript" src="bundle.js">
 </script>
 </body>
 </html>

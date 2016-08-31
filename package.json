@@ -1,0 +1,32 @@
+{
+  "name": "vuejs",
+  "version": "1.0.0",
+  "description": "this repository was used for learning purpose",
+  "main": "main.js",
+  "dependencies": {
+    "vue": "^*.*.*",
+	"vue-resource":"*.*.*"
+  },
+  "devDependencies" : {
+    "vue": "^*.*.*",
+	"vue-resource":"*.*.*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billxcode/learn-vuejs.git"
+  },
+  "keywords": [
+    "learn",
+    "vue",
+    "js"
+  ],
+  "author": "bill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billxcode/learn-vuejs/issues"
+  },
+  "homepage": "https://github.com/billxcode/learn-vuejs#readme"
+}
